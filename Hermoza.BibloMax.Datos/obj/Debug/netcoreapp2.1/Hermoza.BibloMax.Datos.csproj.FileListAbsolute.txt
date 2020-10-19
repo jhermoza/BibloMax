@@ -1,0 +1,17 @@
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.deps.json
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.dll
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.pdb
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.csproj.CoreCompileInputs.cache
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.AssemblyInfoInputs.cache
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.AssemblyInfo.cs
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.dll
+D:\Users\Joean\Desktop\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.pdb
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.deps.json
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.dll
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\bin\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.pdb
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.AssemblyInfoInputs.cache
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.AssemblyInfo.cs
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.csproj.CoreCompileInputs.cache
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.dll
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.pdb
+E:\USB_SOY50GB\BibloMax\Hermoza.BibloMax.Datos\obj\Debug\netcoreapp2.1\Hermoza.BibloMax.Datos.csprojAssemblyReference.cache

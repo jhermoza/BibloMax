@@ -1,0 +1,33 @@
+﻿@page
+@model Hermoza.BibloMax.Integracion.Pages.Eventos.SOEventoModel
+@{
+    Layout = "_Layout";
+}
+
+
+
+
+@section PageHeader{
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">BibloMax</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link" href="@Url.Page("/Principal/SOIndex")">Inicio</a>
+                <a class="nav-link" href="@Url.Page("/Sedes/SOSedes")">Sedes</a>
+                <a class="nav-link" href="@Url.Page("/Complejos/SOComplejos")">Complejos</a>
+                <a class="nav-link active" href="@Url.Page("/Eventos/SOEventos")">Eventos</a>
+                <a class="nav-link" href="@Url.Page("/Principal/SONosotros")">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+}
+
+<main role="main" class="inner cover">
+    <h1 class="cover-heading">Te ayudaremos con la gestión de los complejos.</h1>
+    <p class="lead">
+        Puedes revisar los eventos programados a la fecha, cambiar la fecha de estos de ser necesario, registrar nuevos complejos o la apertura de nuevas instalaciones en estos.
+    </p>
+    <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    </p>
+</main>

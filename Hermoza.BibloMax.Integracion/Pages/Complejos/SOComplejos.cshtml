@@ -1,0 +1,82 @@
+﻿@page
+@model Hermoza.BibloMax.Integracion.Pages.Complejos.SOComplejosModel
+@{
+    Layout = "_Layout";
+}
+
+<input type="hidden" id="__URL_SEDES" value="@Url.Action("ObtenerSedes","Sede")" />
+<input type="hidden" id="__URL_COMPLEJOS" value="@Url.Action("ObtenerComplejos","Complejo")" />
+<input type="hidden" id="__URL_DETALLE" value="@Url.Action("DetalleComplejo","Complejo")" />
+<input type="hidden" id="__URL_ELIMINAR" value="@Url.Action("EliminarComplejo","Complejo")" />
+<input type="hidden" id="__URL_REGISTRO" value="@Url.Action("RegistrarComplejo","Complejo")" />
+<input type="hidden" id="__ID_ACTUAL" />
+
+@section PageHeader{
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">BibloMax</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link" href="@Url.Page("/Principal/SOIndex")">Inicio</a>
+                <a class="nav-link" href="@Url.Page("/Sedes/SOSedes")">Sedes</a>
+                <a class="nav-link active" href="@Url.Page("/Complejos/SOComplejos")">Complejos</a>
+                <a class="nav-link" href="@Url.Page("/Principal/SONosotros")">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+}
+
+<main role="main" class="inner cover">
+
+    <div class="d-flex flex-wrap bg-light text-dark text-left" style="margin-bottom:5%; padding:15px;">
+
+        <div class="form-group col-12">
+            <h3>Complejos</h3>
+        </div>
+
+        <div class="form-group col-lg-6 col-sm-12">
+            <label for="pwd">Sede:</label>
+            @*<input type="number" class="form-control" id="txtSede" placeholder="Sede">*@
+            <select class="form-control" id="cboSede">
+                <option value="0">Seleccione</option>
+            </select>
+        </div>
+
+        <div class="form-group col-lg-6 col-sm-12">
+            <label for="email">Localidad:</label>
+            <input type="text" class="form-control" id="txtLocalidad" placeholder="Localidad">
+        </div>
+
+        <div class="form-group col-lg-6 col-sm-12">
+            <label for="pwd">Jefe:</label>
+            <input type="text" class="form-control" id="txtJefe" placeholder="Jefe">
+        </div>
+
+        <div class="form-group col-lg-6 col-sm-12">
+            <label for="email">N° Areas:</label>
+            <input type="number" class="form-control" id="txtAreas" placeholder="N° Areas">
+        </div>
+
+        <div class="d-flex flex-wrap flex-row-reverse col-12">
+            <button type="button" class="m-1 col-lg-3 col-12 btn btn-dark btn-block" id="btnGuardar">Guardar</button>
+            <button type="button" class="m-1 col-lg-3 col-12 btn btn-dark btn-block" id="btnLimpiar">Limpiar</button>
+        </div>
+    </div>
+
+    <table id="example" class="display" style="width:100%">
+        <thead class="bg-dark">
+            <tr>
+                <th scope="col">Sede</th>
+                <th scope="col">Localidad</th>
+                <th scope="col">Jefe</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody style="background-color: rgba(0,0,0,0.3);" class="text-dark">
+        </tbody>
+    </table>
+
+</main>
+
+@section Javascript{
+    <script src="~/js/complejos/complejos.js"></script>
+}

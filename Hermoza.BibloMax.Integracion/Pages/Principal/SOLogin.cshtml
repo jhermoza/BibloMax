@@ -1,0 +1,77 @@
+﻿@page
+@model Hermoza.BibloMax.Integracion.Pages.Principal.SOLoginModel
+@{
+
+    Layout = "_Layout";
+
+}
+
+<style>
+
+    .login-form {
+        /*margin: 50px auto;*/
+        font-size: 15px;
+    }
+
+        .login-form form {
+            margin-bottom: 15px;
+            background: #f7f7f7;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px 15px;
+        }
+
+        .login-form h2 {
+            margin: 0 0 15px;
+        }
+
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+
+    .btn {
+        font-size: 15px;
+        font-weight: bold;
+    }
+</style>
+
+@section PageHeader{
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">BibloMax</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link" href="#">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+}
+
+
+<input type="hidden" id="__URL_LOGIN" value="@Url.Action("Login","Auth")" />
+<input type="hidden" value="@Url.Page("/Principal/SOIndex")" id="__URL_INDEX" />
+
+<main role="main" class="inner cover p-0">
+
+    <div class="login-form mx-auto col-lg-8 col-sm-12 p-0">
+        <form>
+            <h2 class="text-center text-dark">Bienvenido</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" required="required" id="txtUsuario">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required="required" id="txtPass">
+            </div>
+            @*<div class="form-group">
+                    <a href="#" style="font-size:13px;" class="float-left text-dark">¿Olvidó su contraseña?</a>
+                </div>*@
+            <div class="form-group">
+                <button type="button" class="btn btn-dark btn-block" id="btnIngresar">Ingresar</button>
+            </div>
+        </form>
+    </div>
+
+</main>
+
+@section Javascript{
+    <script src="~/js/login/login.js"></script>
+}

@@ -1,0 +1,12 @@
+﻿
+
+
+input[type="text"].txtSombra {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    -webkit-box-shadow: 4px 5px 7px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 5px 7px 1px rgba(0, 0, 0, 1);
+    box-shadow: 4px 5px 7px 1px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    margin: 5px auto 30px auto;
+    display: block;
+    width: 100px;
+    height: auto;
+}
+p{
+    font-family: 'Noto Sans SC', sans-serif;
+    text-align: center;
+}
+span{
+    font-family: 'Noto Sans SC', sans-serif;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: black;
+}

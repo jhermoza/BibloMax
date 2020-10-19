@@ -1,0 +1,14 @@
+{
+  "Template": {
+    "RUTA_TEMPLATE_PARA_ENVIAR_CORREOS": "D:\\Users\\Joean\\Desktop\\BibloMax\\Hermoza.BibloMax.Integracion\\wwwroot\\plantillas_correo\\recupera_pass.html"
+  },
+  "Valores": {
+    "PASSWORD_SALT": "HGsdyuwebibweGGF"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
